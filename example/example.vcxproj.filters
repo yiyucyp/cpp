@@ -30,6 +30,9 @@
     <ClInclude Include="..\external\sqlite\sqlite3.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\external\url_parse\EdUrlParser.h">
+      <Filter>lib_hiberdefs</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -76,6 +79,15 @@
     </ClCompile>
     <ClCompile Include="..\external\hiberlite\src\Visitor.cpp">
       <Filter>lib_hiberdefs</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\url_parse\EdUrlParser.cpp">
+      <Filter>lib_hiberdefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\http\src\Uri.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

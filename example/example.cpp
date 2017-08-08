@@ -53,10 +53,11 @@ void json_test()
 
 extern void test_codecvt();
 extern void test_sqlite();
-
+extern void test_http();
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+    test_http();
     test_sqlite();
     json_test();
     test_codecvt();

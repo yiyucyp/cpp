@@ -4,3 +4,9 @@
 [submodule "external/hiberlite"]
 	path = external/hiberlite
 	url = https://github.com/paulftw/hiberlite.git
+[submodule "external/Simple-Web-Server"]
+	path = external/Simple-Web-Server
+	url = https://github.com/eidheim/Simple-Web-Server.git
+[submodule "external/boost"]
+	path = external/boost
+	url = https://github.com/manuelgustavo/boost_build.git

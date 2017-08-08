@@ -4,6 +4,7 @@
 #include "otl/otl_wapper.hpp"
 
 
+
 struct test_db : public otl_interface<test_db>
 {
     // data
